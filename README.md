@@ -20,12 +20,6 @@ const data = await res.json()
 
 ---
 
-## 安装要求
-
-QuickApp 的 `manifest.json` 里 `package` 必须与配对的 Android App **包名一致**，且**签名匹配**。这是 Vela Interconnect 的硬性前提，不满足的话连不上。
-
----
-
 ## API
 
 ### `fetch(url, options?)`
